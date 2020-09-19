@@ -23,10 +23,10 @@ function setup() {
   //creating background
   background("lightblue");
   //creating sprites, sounds, groups
-  Start=createSprite(400,height-400,0,0);
+  Start=createSprite(400,height-450,0,0);
   Start.addImage("start",start);
   Start.visible=true;
-  instruction=createSprite(400,height-350,0,0);
+  instruction=createSprite(400,height-250,0,0);
   instruction.addImage("ins",ins);
   instruction.visible=true;
   if(gameState==1){
